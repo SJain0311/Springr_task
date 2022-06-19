@@ -1,0 +1,95 @@
+.formDisplay {
+  background-color: rgb(39, 39, 39);
+  border-radius: 15px;
+  width: 700px;
+  height: 650px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 20px !important;
+  border-color: rgb(75 94 41);
+  color: white;
+  height: auto;
+  width: 100%;
+  border-width: 0.1rem;
+}
+
+
+h5 {
+  color: white;
+  text-align: center;
+}
+
+input {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+.input:focus {
+  color: white;
+  background-color: transparent;
+}
+
+.inputField {
+  color: white;
+}
+
+.signupHeader {
+  margin: 1rem 10rem;
+}
+
+.form-text {
+  color: #FFFF;
+}
+
+.inputField span {
+  font-weight: semi-bold;
+  color: rgb(26, 5, 54);
+}
+
+.submitBtn {
+  border-radius: 20px;
+  width: 200px;
+  color: rgb(39, 39, 39);
+}
+
+.font-family {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.loginin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.loginForm{
+  width: 60%;
+  border: 0.1rem solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.loginForm > h2{
+  text-align: center;
+}
+
+.loginLabel{
+color: black;
+font-size: 1.24rem;
+margin-left: 0.5rem;
+}
+.font-family {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.error{
+  color: red;
+  font-size: small;
+  margin: -16px;
+  padding-top: 20px;
+  padding-left: 20px; 
+}
